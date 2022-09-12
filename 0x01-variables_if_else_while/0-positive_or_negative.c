@@ -9,7 +9,7 @@
 
 /**
  * main - Prints a random number and states whether
-	it is positive, negative or zero.
+ *	  it is positive, negative or zero.
 
  * Return: 0 on success
 */
@@ -19,7 +19,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n < 0)
 		printf("%d is %s\n", n, "negative");
 	else if (n > 0)
